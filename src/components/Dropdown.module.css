@@ -12,21 +12,17 @@
 .titleText:hover{
     color: white;
     background-color: rgb(41, 154, 177);
-    border-radius: 25px;
-    border: 2px solid black;
 }
 
 .basicFormat{
     color: blue;
     font-size: 14px;
-    padding-bottom: 4px;
-    margin-bottom: 4px;
     /* position: relative; */
   }
   
   .basicFormat:hover{
     color: red;
-    font-size: 16px;
+    font-size: 14px;
    /*  position: relative; */
   }
 
