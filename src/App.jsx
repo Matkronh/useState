@@ -1,6 +1,7 @@
 import './App.css'
 import Dropdown from './components/Dropdown'
 import styles from './components/Dropdown.module.css'
+import './components/Dropdown.module.css'
 
 function App(props) {
 
@@ -16,5 +17,18 @@ function App(props) {
     </div>
   )
 }
+
+
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting){
+      entry.target.classList.add('basicFormatShow')
+    }
+  })
+})
+
+const transitionElements = document.querySelectorAll('.basicFormat');
+transitionElements.forEach((el) => observer.observe(el));
 
 export default App
