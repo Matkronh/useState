@@ -1,0 +1,50 @@
+.titleText{
+    color: rgb(41, 154, 177);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.titleText:hover{
+    color: white;
+    background-color: rgb(41, 154, 177);
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.basicFormat{
+    color: blue;
+    font-size: 14px;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    /* position: relative; */
+  }
+  
+  .basicFormat:hover{
+    color: red;
+    font-size: 16px;
+   /*  position: relative; */
+  }
+
+  .App{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgb(212, 204, 219);
+    margin-bottom: 40px;
+  }
+
+  .default{
+    margin: 0px;
+  }
+
+  .flexy{
+    display: flex;
+  }
