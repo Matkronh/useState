@@ -11,8 +11,9 @@ function App(props) {
         <Dropdown title="Menu">
           <h4 className={styles.menu}>Home</h4>
           <h4 className={styles.menu2}>About</h4>
-          <h4 className={styles.menu}>Contact</h4>
+          <h4 className={styles.menu3}>Contact</h4>
         </Dropdown> 
+        <h6>by clicking you agree to sell your soul</h6>
       </div>
     </div>
   )

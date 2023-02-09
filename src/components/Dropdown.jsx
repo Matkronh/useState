@@ -12,11 +12,8 @@ function Dropdown (props){
     return(
         <div className={styles.default}>
             <h2 className={styles.titleText} onClick={toggle}>{props.title}</h2>
-            
-            {state ?    
-                            <div>
-                                {props.children}
-                            </div> : null}
+
+            {state ? <div className={styles.rela}>{props.children}</div> : null}
         </div>
     )
 }
