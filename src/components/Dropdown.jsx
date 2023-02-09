@@ -1,4 +1,5 @@
 import styles from './Dropdown.module.css'
+import './Dropdown.module.css'
 import { useState } from 'react';
 
 
@@ -12,9 +13,10 @@ function Dropdown (props){
         <div className={styles.default}>
             <h2 className={styles.titleText} onClick={toggle}>{props.title}</h2>
             
-            {state ?    <div>
-                            {props.children}
-                        </div> : null}
+            {state ?    
+                            <div>
+                                {props.children}
+                            </div> : null}
         </div>
     )
 }
