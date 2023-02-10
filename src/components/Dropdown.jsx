@@ -2,7 +2,12 @@ import styles from './Dropdown.module.css'
 import './Dropdown.module.css'
 import { useState } from 'react';
 
+/* const [isOpen, setIsOpen] = useState(true)
 
+function toggleOpen() {
+ setIsOpen(
+  (wasOpen) => !wasOpen
+} */
 
 function Dropdown (props){
 
